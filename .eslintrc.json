@@ -1,6 +1,6 @@
 {
   "env": { "es6": true, "node": true },
-  "extends": ["plugin:github/recommended", "eslint:recommended"],
+  "extends": ["plugin:github/recommended","plugin:@typescript-eslint/recommended", "eslint:recommended"],
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint", "github"],
   "rules": { "github/no-then": "off" }
