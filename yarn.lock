@@ -753,10 +753,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.0.0.tgz#081d9afd28421be956c1a47ced1c9a0034b467e2"
   integrity sha512-cD2uPTDnQQCVpmRefonO98/PPijuOnnEy5oytWJFPY1N9aJCz2wJ5kSGWO+zJoed2cY2JxQh6yBuUq4vIn61hw==
 
-"@types/node@16.18.30":
-  version "16.18.30"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.30.tgz#4a2c426370712a10c630a55ba086c55c17ca54e0"
-  integrity sha512-Kmp/wBZk19Dn7uRiol8kF8agnf8m0+TU9qIwyfPmXglVxMlmiIz0VQSMw5oFgwhmD2aKTlfBIO5FtsVj3y7hKQ==
+"@types/node@16.18.33":
+  version "16.18.33"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.33.tgz#0e91a6e18a006d3acfb3efa797cdcfc3a6598cd0"
+  integrity sha512-WjW7iYRVtePnSeLxVfE1e+g1yStJrfR9Anuv4y6JZVgOqYyFcW7GhPBk2/J1d0rC4ZNLrI13lS4e32NUuuRmHA==
 
 "@types/prettier@^2.1.5":
   version "2.7.2"
