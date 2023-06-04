@@ -2,10 +2,5 @@
   "editor.tabSize": 2,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
