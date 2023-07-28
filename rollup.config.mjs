@@ -17,6 +17,7 @@ export default {
     file: "dist/index.js",
     format: "cjs",
   },
+  treeshake: "smallest",
   plugins: [
     swc(),
     nodeResolve({
