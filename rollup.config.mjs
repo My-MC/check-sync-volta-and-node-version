@@ -19,7 +19,10 @@ export default {
   },
   plugins: [
     swc(),
-    nodeResolve({ extensions: [".mjs", ".js", ".json", ".node", ".ts"] }),
+    nodeResolve({
+      extensions: [".mjs", ".js", ".json", ".node", ".ts"],
+      exportConditions: ["node"],
+    }),
     commonjs(),
     terser(),
     rollupPluginLicense({
