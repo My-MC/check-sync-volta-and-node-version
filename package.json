@@ -33,7 +33,7 @@
     "rollup": "3.26.3",
     "rollup-plugin-license": "3.0.1",
     "ts-jest": "29.1.0",
-    "typescript": "5.0.4"
+    "typescript": "5.1.6"
   },
   "volta": {
     "node": "16.20.0",
