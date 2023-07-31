@@ -11,6 +11,6 @@ test("async version", () => {
   const packageJsonPath = "./__test__/package.test.json";
   const nodeVersionPath = "./__test__/.node-version.test.async";
   expect(() => check(packageJsonPath, nodeVersionPath)).toThrow(
-    "volta node version 16.20.0 does not match .node_version version 18.16.0"
+    "volta node version 16.20.0 does not match .node_version version 18.16.0",
   );
 });
