@@ -2,8 +2,7 @@
 node_modules/
 
 # dist
-lib/
-dist/
+/dist/
 
 # yarn
 .yarn/
