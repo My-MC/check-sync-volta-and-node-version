@@ -2,6 +2,9 @@
   "recommendations": [
     "oderwat.indent-rainbow",
     "ionutvmi.path-autocomplete",
-    "visualstudioexptteam.vscodeintellicode"
+    "visualstudioexptteam.vscodeintellicode",
+    "arcanis.vscode-zipfs",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
   ]
 }
