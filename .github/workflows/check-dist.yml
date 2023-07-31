@@ -22,7 +22,7 @@ jobs:
       - uses: volta-cli/action@v4.0.0
 
       - name: Install dependencies
-        run: yarn install --immutable --immutable-cach
+        run: yarn install --immutable --immutable-cache
 
       - name: Rebuild the dist directory
         run: yarn run build
