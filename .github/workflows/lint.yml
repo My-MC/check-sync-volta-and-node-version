@@ -20,6 +20,9 @@ jobs:
 
       - uses: volta-cli/action@v4.0.0
 
+      - name: yarn version
+        run: yarn --version
+
       - name: Install dependencies
         run: yarn install --immutable --immutable-cach
 
