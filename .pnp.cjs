@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@swc/core", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:1.3.71"],\
             ["@types/node", "npm:16.18.39"],\
             ["@typescript-eslint/eslint-plugin", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:6.2.0"],\
-            ["@typescript-eslint/parser", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:6.2.0"],\
+            ["@typescript-eslint/parser", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:6.2.1"],\
             ["eslint", "npm:8.46.0"],\
             ["jest", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:29.5.0"],\
             ["prettier", "npm:3.0.0"],\
@@ -2115,7 +2115,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/eslint", null],\
             ["@types/typescript", null],\
             ["@types/typescript-eslint__parser", null],\
-            ["@typescript-eslint/parser", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:6.2.0"],\
+            ["@typescript-eslint/parser", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:6.2.1"],\
             ["@typescript-eslint/scope-manager", "npm:6.2.0"],\
             ["@typescript-eslint/type-utils", "virtual:cd8e95a28cef8d3103ddb9284cebc6b95f030951e8ba6604b8ca107f879d9f3fc783676cca7574314f0312f22a22516f9d7ade4d374f8e21cd22b07ad6d545e1#npm:6.2.0"],\
             ["@typescript-eslint/utils", "virtual:cd8e95a28cef8d3103ddb9284cebc6b95f030951e8ba6604b8ca107f879d9f3fc783676cca7574314f0312f22a22516f9d7ade4d374f8e21cd22b07ad6d545e1#npm:6.2.0"],\
@@ -2142,23 +2142,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@typescript-eslint/parser", [\
-        ["npm:6.2.0", {\
-          "packageLocation": "./.yarn/cache/@typescript-eslint-parser-npm-6.2.0-776e45f503-ba79674f2d.zip/node_modules/@typescript-eslint/parser/",\
+        ["npm:6.2.1", {\
+          "packageLocation": "./.yarn/cache/@typescript-eslint-parser-npm-6.2.1-5eca572243-cf4768cbfc.zip/node_modules/@typescript-eslint/parser/",\
           "packageDependencies": [\
-            ["@typescript-eslint/parser", "npm:6.2.0"]\
+            ["@typescript-eslint/parser", "npm:6.2.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:6.2.0", {\
-          "packageLocation": "./.yarn/__virtual__/@typescript-eslint-parser-virtual-4cc04b16b8/0/cache/@typescript-eslint-parser-npm-6.2.0-776e45f503-ba79674f2d.zip/node_modules/@typescript-eslint/parser/",\
+        ["virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:6.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/@typescript-eslint-parser-virtual-59c4fc50d9/0/cache/@typescript-eslint-parser-npm-6.2.1-5eca572243-cf4768cbfc.zip/node_modules/@typescript-eslint/parser/",\
           "packageDependencies": [\
-            ["@typescript-eslint/parser", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:6.2.0"],\
+            ["@typescript-eslint/parser", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:6.2.1"],\
             ["@types/eslint", null],\
             ["@types/typescript", null],\
-            ["@typescript-eslint/scope-manager", "npm:6.2.0"],\
-            ["@typescript-eslint/types", "npm:6.2.0"],\
-            ["@typescript-eslint/typescript-estree", "virtual:81d6f1402349bf523d2f1385a42b67728066745dc9149c27893b1ad05836293052257f8e8ac6aa43137b8d928d6c0d67dee22a699ec84842dec0d550e639710f#npm:6.2.0"],\
-            ["@typescript-eslint/visitor-keys", "npm:6.2.0"],\
+            ["@typescript-eslint/scope-manager", "npm:6.2.1"],\
+            ["@typescript-eslint/types", "npm:6.2.1"],\
+            ["@typescript-eslint/typescript-estree", "virtual:59c4fc50d917d7b971d49a96d5eca724c6a18397c9cf28ac795f804065ce46e2aaf399e25af60f8d87945a0b6417b7fec3194c1677aeea29fcd9a9a3cf8b182e#npm:6.2.1"],\
+            ["@typescript-eslint/visitor-keys", "npm:6.2.1"],\
             ["debug", "virtual:1ca322a4d66c7a41fb1e112226317c5a21fb69ea7d45c9d09b748ed5b9f833c84750b4efbc0ff288a6bf112667942c8baf99cbcdf6d047bbf8cc131896c14fd5#npm:4.3.4"],\
             ["eslint", "npm:8.46.0"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
@@ -2179,6 +2179,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/scope-manager", "npm:6.2.0"],\
             ["@typescript-eslint/types", "npm:6.2.0"],\
             ["@typescript-eslint/visitor-keys", "npm:6.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:6.2.1", {\
+          "packageLocation": "./.yarn/cache/@typescript-eslint-scope-manager-npm-6.2.1-50be37182a-3bb461678c.zip/node_modules/@typescript-eslint/scope-manager/",\
+          "packageDependencies": [\
+            ["@typescript-eslint/scope-manager", "npm:6.2.1"],\
+            ["@typescript-eslint/types", "npm:6.2.1"],\
+            ["@typescript-eslint/visitor-keys", "npm:6.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2220,6 +2229,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/types", "npm:6.2.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:6.2.1", {\
+          "packageLocation": "./.yarn/cache/@typescript-eslint-types-npm-6.2.1-45ff46aaf3-388d32f15a.zip/node_modules/@typescript-eslint/types/",\
+          "packageDependencies": [\
+            ["@typescript-eslint/types", "npm:6.2.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@typescript-eslint/typescript-estree", [\
@@ -2229,6 +2245,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/typescript-estree", "npm:6.2.0"]\
           ],\
           "linkType": "SOFT"\
+        }],\
+        ["npm:6.2.1", {\
+          "packageLocation": "./.yarn/cache/@typescript-eslint-typescript-estree-npm-6.2.1-bb98926d47-3d9beeb5e3.zip/node_modules/@typescript-eslint/typescript-estree/",\
+          "packageDependencies": [\
+            ["@typescript-eslint/typescript-estree", "npm:6.2.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:59c4fc50d917d7b971d49a96d5eca724c6a18397c9cf28ac795f804065ce46e2aaf399e25af60f8d87945a0b6417b7fec3194c1677aeea29fcd9a9a3cf8b182e#npm:6.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/@typescript-eslint-typescript-estree-virtual-2e15b6b836/0/cache/@typescript-eslint-typescript-estree-npm-6.2.1-bb98926d47-3d9beeb5e3.zip/node_modules/@typescript-eslint/typescript-estree/",\
+          "packageDependencies": [\
+            ["@typescript-eslint/typescript-estree", "virtual:59c4fc50d917d7b971d49a96d5eca724c6a18397c9cf28ac795f804065ce46e2aaf399e25af60f8d87945a0b6417b7fec3194c1677aeea29fcd9a9a3cf8b182e#npm:6.2.1"],\
+            ["@types/typescript", null],\
+            ["@typescript-eslint/types", "npm:6.2.1"],\
+            ["@typescript-eslint/visitor-keys", "npm:6.2.1"],\
+            ["debug", "virtual:1ca322a4d66c7a41fb1e112226317c5a21fb69ea7d45c9d09b748ed5b9f833c84750b4efbc0ff288a6bf112667942c8baf99cbcdf6d047bbf8cc131896c14fd5#npm:4.3.4"],\
+            ["globby", "npm:11.1.0"],\
+            ["is-glob", "npm:4.0.3"],\
+            ["semver", "npm:7.5.4"],\
+            ["ts-api-utils", "virtual:cd8e95a28cef8d3103ddb9284cebc6b95f030951e8ba6604b8ca107f879d9f3fc783676cca7574314f0312f22a22516f9d7ade4d374f8e21cd22b07ad6d545e1#npm:1.0.1"],\
+            ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
+          ],\
+          "packagePeers": [\
+            "@types/typescript",\
+            "typescript"\
+          ],\
+          "linkType": "HARD"\
         }],\
         ["virtual:81d6f1402349bf523d2f1385a42b67728066745dc9149c27893b1ad05836293052257f8e8ac6aa43137b8d928d6c0d67dee22a699ec84842dec0d550e639710f#npm:6.2.0", {\
           "packageLocation": "./.yarn/__virtual__/@typescript-eslint-typescript-estree-virtual-dae3987ef2/0/cache/@typescript-eslint-typescript-estree-npm-6.2.0-88c97a9049-5bfd5bf09f.zip/node_modules/@typescript-eslint/typescript-estree/",\
@@ -2306,6 +2349,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@typescript-eslint/visitor-keys", "npm:6.2.0"],\
             ["@typescript-eslint/types", "npm:6.2.0"],\
+            ["eslint-visitor-keys", "npm:3.4.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:6.2.1", {\
+          "packageLocation": "./.yarn/cache/@typescript-eslint-visitor-keys-npm-6.2.1-6a12bb9525-c05a1c4512.zip/node_modules/@typescript-eslint/visitor-keys/",\
+          "packageDependencies": [\
+            ["@typescript-eslint/visitor-keys", "npm:6.2.1"],\
+            ["@typescript-eslint/types", "npm:6.2.1"],\
             ["eslint-visitor-keys", "npm:3.4.2"]\
           ],\
           "linkType": "HARD"\
@@ -2845,7 +2897,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@swc/core", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:1.3.71"],\
             ["@types/node", "npm:16.18.39"],\
             ["@typescript-eslint/eslint-plugin", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:6.2.0"],\
-            ["@typescript-eslint/parser", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:6.2.0"],\
+            ["@typescript-eslint/parser", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:6.2.1"],\
             ["eslint", "npm:8.46.0"],\
             ["jest", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:29.5.0"],\
             ["prettier", "npm:3.0.0"],\
@@ -15462,6 +15514,7 @@ function reportRequiredFilesToWatchMode(files) {
 }
 
 function applyPatch(pnpapi, opts) {
+  const defaultCache = {};
   let enableNativeHooks = true;
   process.versions.pnp = String(pnpapi.VERSIONS.std);
   const moduleExports = require$$0__default.default;
@@ -15481,13 +15534,62 @@ function applyPatch(pnpapi, opts) {
   }
   const originalModuleLoad = require$$0.Module._load;
   require$$0.Module._load = function(request, parent, isMain) {
-    if (request === `pnpapi`) {
-      const parentApiPath = opts.manager.getApiPathFromParent(parent);
-      if (parentApiPath) {
-        return opts.manager.getApiEntry(parentApiPath, true).instance;
+    if (!enableNativeHooks)
+      return originalModuleLoad.call(require$$0.Module, request, parent, isMain);
+    if (isBuiltinModule(request)) {
+      try {
+        enableNativeHooks = false;
+        return originalModuleLoad.call(require$$0.Module, request, parent, isMain);
+      } finally {
+        enableNativeHooks = true;
       }
     }
-    return originalModuleLoad.call(require$$0.Module, request, parent, isMain);
+    const parentApiPath = opts.manager.getApiPathFromParent(parent);
+    const parentApi = parentApiPath !== null ? opts.manager.getApiEntry(parentApiPath, true).instance : null;
+    if (parentApi === null)
+      return originalModuleLoad(request, parent, isMain);
+    if (request === `pnpapi`)
+      return parentApi;
+    const modulePath = require$$0.Module._resolveFilename(request, parent, isMain);
+    const isOwnedByRuntime = parentApi !== null ? parentApi.findPackageLocator(modulePath) !== null : false;
+    const moduleApiPath = isOwnedByRuntime ? parentApiPath : opts.manager.findApiPathFor(npath.dirname(modulePath));
+    const entry = moduleApiPath !== null ? opts.manager.getApiEntry(moduleApiPath) : { instance: null, cache: defaultCache };
+    const cacheEntry = entry.cache[modulePath];
+    if (cacheEntry) {
+      if (cacheEntry.loaded === false && cacheEntry.isLoading !== true) {
+        try {
+          cacheEntry.isLoading = true;
+          if (isMain) {
+            process.mainModule = cacheEntry;
+            cacheEntry.id = `.`;
+          }
+          cacheEntry.load(modulePath);
+        } finally {
+          cacheEntry.isLoading = false;
+        }
+      }
+      return cacheEntry.exports;
+    }
+    const module = new require$$0.Module(modulePath, parent != null ? parent : void 0);
+    module.pnpApiPath = moduleApiPath;
+    reportRequiredFilesToWatchMode([modulePath]);
+    entry.cache[modulePath] = module;
+    if (isMain) {
+      process.mainModule = module;
+      module.id = `.`;
+    }
+    let hasThrown = true;
+    try {
+      module.isLoading = true;
+      module.load(modulePath);
+      hasThrown = false;
+    } finally {
+      module.isLoading = false;
+      if (hasThrown) {
+        delete require$$0.Module._cache[modulePath];
+      }
+    }
+    return module.exports;
   };
   function getIssuerSpecsFromPaths(paths) {
     return paths.map((path) => ({
@@ -15555,7 +15657,7 @@ function applyPatch(pnpapi, opts) {
       const parentDirectory = (parent == null ? void 0 : parent.filename) != null ? npath.dirname(parent.filename) : null;
       const absoluteRequest = npath.isAbsolute(request) ? request : parentDirectory !== null ? npath.resolve(parentDirectory, request) : null;
       if (absoluteRequest !== null) {
-        const apiPath = parent && parentDirectory === npath.dirname(absoluteRequest) ? opts.manager.getApiPathFromParent(parent) : opts.manager.findApiPathFor(absoluteRequest);
+        const apiPath = parentDirectory === npath.dirname(absoluteRequest) && (parent == null ? void 0 : parent.pnpApiPath) ? parent.pnpApiPath : opts.manager.findApiPathFor(absoluteRequest);
         if (apiPath !== null) {
           issuerSpecs.unshift({
             apiPath,
@@ -17276,6 +17378,7 @@ function makeManager(pnpapi, opts) {
   const initialApiStats = opts.fakeFs.statSync(npath.toPortablePath(initialApiPath));
   const apiMetadata = /* @__PURE__ */ new Map([
     [initialApiPath, {
+      cache: require$$0.Module._cache,
       instance: pnpapi,
       stats: initialApiStats,
       lastRefreshCheck: Date.now()
@@ -17307,6 +17410,7 @@ function makeManager(pnpapi, opts) {
       }
     } else {
       apiMetadata.set(pnpApiPath, apiEntry = {
+        cache: {},
         instance: loadApiInstance(pnpApiPath),
         stats: opts.fakeFs.statSync(pnpApiPath),
         lastRefreshCheck: Date.now()
@@ -17376,16 +17480,19 @@ ${controlSegment}
     } while (curr !== PortablePath.root);
     return addToCacheAndReturn(start, curr, null);
   }
-  const moduleToApiPathCache = /* @__PURE__ */ new WeakMap();
   function getApiPathFromParent(parent) {
     if (parent == null)
       return initialApiPath;
-    let apiPath = moduleToApiPathCache.get(parent);
-    if (typeof apiPath !== `undefined`)
-      return apiPath;
-    apiPath = parent.filename ? findApiPathFor(parent.filename) : null;
-    moduleToApiPathCache.set(parent, apiPath);
-    return apiPath;
+    if (typeof parent.pnpApiPath === `undefined`) {
+      if (parent.filename !== null) {
+        return parent.pnpApiPath = findApiPathFor(parent.filename);
+      } else {
+        return initialApiPath;
+      }
+    }
+    if (parent.pnpApiPath !== null)
+      return parent.pnpApiPath;
+    return null;
   }
   return {
     getApiPathFromParent,
