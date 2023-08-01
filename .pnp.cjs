@@ -42,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:29.5.0"],\
             ["prettier", "npm:3.0.0"],\
             ["rimraf", "npm:5.0.1"],\
-            ["rollup", "npm:3.26.3"],\
+            ["rollup", "npm:3.27.0"],\
             ["rollup-plugin-license", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:3.0.1"],\
             ["ts-jest", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:29.1.0"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
@@ -1515,7 +1515,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["glob", "npm:8.1.0"],\
             ["is-reference", "npm:1.2.1"],\
             ["magic-string", "npm:0.27.0"],\
-            ["rollup", "npm:3.26.3"]\
+            ["rollup", "npm:3.27.0"]\
           ],\
           "packagePeers": [\
             "@types/rollup",\
@@ -1543,7 +1543,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-builtin-module", "npm:3.2.1"],\
             ["is-module", "npm:1.0.0"],\
             ["resolve", "patch:resolve@npm%3A1.22.2#~builtin<compat/resolve>::version=1.22.2&hash=c3c19d"],\
-            ["rollup", "npm:3.26.3"]\
+            ["rollup", "npm:3.27.0"]\
           ],\
           "packagePeers": [\
             "@types/rollup",\
@@ -1567,7 +1567,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@swc/core", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:1.3.71"],\
             ["@types/rollup", null],\
             ["@types/swc__core", null],\
-            ["rollup", "npm:3.26.3"],\
+            ["rollup", "npm:3.27.0"],\
             ["smob", "npm:1.4.0"]\
           ],\
           "packagePeers": [\
@@ -1592,7 +1592,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@rollup/plugin-terser", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:0.4.3"],\
             ["@types/rollup", null],\
-            ["rollup", "npm:3.26.3"],\
+            ["rollup", "npm:3.27.0"],\
             ["serialize-javascript", "npm:6.0.1"],\
             ["smob", "npm:1.4.0"],\
             ["terser", "npm:5.19.2"]\
@@ -1620,7 +1620,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/rollup", null],\
             ["estree-walker", "npm:2.0.2"],\
             ["picomatch", "npm:2.3.1"],\
-            ["rollup", "npm:3.26.3"]\
+            ["rollup", "npm:3.27.0"]\
           ],\
           "packagePeers": [\
             "@types/rollup",\
@@ -2721,7 +2721,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:29.5.0"],\
             ["prettier", "npm:3.0.0"],\
             ["rimraf", "npm:5.0.1"],\
-            ["rollup", "npm:3.26.3"],\
+            ["rollup", "npm:3.27.0"],\
             ["rollup-plugin-license", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:3.0.1"],\
             ["ts-jest", "virtual:b09ebd1384e53c3e06dc1bf504b6b77dae772c9692d17aafb1e416c186ed37a192fadcc32f137199a25e9c0dd87f96afe7e2aa2059e68f92c96761f6f8468aa6#npm:29.1.0"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
@@ -5677,10 +5677,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["rollup", [\
-        ["npm:3.26.3", {\
-          "packageLocation": "./.yarn/cache/rollup-npm-3.26.3-072c90700e-e6a765b2b7.zip/node_modules/rollup/",\
+        ["npm:3.27.0", {\
+          "packageLocation": "./.yarn/cache/rollup-npm-3.27.0-cc13a0a334-f60c2c288d.zip/node_modules/rollup/",\
           "packageDependencies": [\
-            ["rollup", "npm:3.26.3"],\
+            ["rollup", "npm:3.27.0"],\
             ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"]\
           ],\
           "linkType": "HARD"\
@@ -5706,7 +5706,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mkdirp", "npm:1.0.4"],\
             ["moment", "npm:2.29.4"],\
             ["package-name-regex", "npm:2.0.6"],\
-            ["rollup", "npm:3.26.3"],\
+            ["rollup", "npm:3.27.0"],\
             ["spdx-expression-validate", "npm:2.0.0"],\
             ["spdx-satisfies", "npm:5.0.1"]\
           ],\
