@@ -503,6 +503,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fastify/deepmerge@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@fastify/deepmerge@npm:1.3.0"
+  checksum: 33ec927905dca320d7ae9535a1521909f7c82339706345324ab6287ad100589a799b8257c15b0e582c7bb74e2aa4883d82ba0228d7b116aa8789ada4f78d6974
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.10":
   version: 0.11.10
   resolution: "@humanwhocodes/config-array@npm:0.11.10"
@@ -954,6 +961,145 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@napi-rs/magic-string-android-arm-eabi@npm:0.3.4":
+  version: 0.3.4
+  resolution: "@napi-rs/magic-string-android-arm-eabi@npm:0.3.4"
+  conditions: os=android & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@napi-rs/magic-string-android-arm64@npm:0.3.4":
+  version: 0.3.4
+  resolution: "@napi-rs/magic-string-android-arm64@npm:0.3.4"
+  conditions: os=android & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@napi-rs/magic-string-darwin-arm64@npm:0.3.4":
+  version: 0.3.4
+  resolution: "@napi-rs/magic-string-darwin-arm64@npm:0.3.4"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@napi-rs/magic-string-darwin-x64@npm:0.3.4":
+  version: 0.3.4
+  resolution: "@napi-rs/magic-string-darwin-x64@npm:0.3.4"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@napi-rs/magic-string-freebsd-x64@npm:0.3.4":
+  version: 0.3.4
+  resolution: "@napi-rs/magic-string-freebsd-x64@npm:0.3.4"
+  conditions: os=freebsd & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@napi-rs/magic-string-linux-arm-gnueabihf@npm:0.3.4":
+  version: 0.3.4
+  resolution: "@napi-rs/magic-string-linux-arm-gnueabihf@npm:0.3.4"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
+"@napi-rs/magic-string-linux-arm64-gnu@npm:0.3.4":
+  version: 0.3.4
+  resolution: "@napi-rs/magic-string-linux-arm64-gnu@npm:0.3.4"
+  conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@napi-rs/magic-string-linux-arm64-musl@npm:0.3.4":
+  version: 0.3.4
+  resolution: "@napi-rs/magic-string-linux-arm64-musl@npm:0.3.4"
+  conditions: os=linux & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@napi-rs/magic-string-linux-x64-gnu@npm:0.3.4":
+  version: 0.3.4
+  resolution: "@napi-rs/magic-string-linux-x64-gnu@npm:0.3.4"
+  conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@napi-rs/magic-string-linux-x64-musl@npm:0.3.4":
+  version: 0.3.4
+  resolution: "@napi-rs/magic-string-linux-x64-musl@npm:0.3.4"
+  conditions: os=linux & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@napi-rs/magic-string-win32-arm64-msvc@npm:0.3.4":
+  version: 0.3.4
+  resolution: "@napi-rs/magic-string-win32-arm64-msvc@npm:0.3.4"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@napi-rs/magic-string-win32-ia32-msvc@npm:0.3.4":
+  version: 0.3.4
+  resolution: "@napi-rs/magic-string-win32-ia32-msvc@npm:0.3.4"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
+"@napi-rs/magic-string-win32-x64-msvc@npm:0.3.4":
+  version: 0.3.4
+  resolution: "@napi-rs/magic-string-win32-x64-msvc@npm:0.3.4"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@napi-rs/magic-string@npm:^0.3.4":
+  version: 0.3.4
+  resolution: "@napi-rs/magic-string@npm:0.3.4"
+  dependencies:
+    "@napi-rs/magic-string-android-arm-eabi": 0.3.4
+    "@napi-rs/magic-string-android-arm64": 0.3.4
+    "@napi-rs/magic-string-darwin-arm64": 0.3.4
+    "@napi-rs/magic-string-darwin-x64": 0.3.4
+    "@napi-rs/magic-string-freebsd-x64": 0.3.4
+    "@napi-rs/magic-string-linux-arm-gnueabihf": 0.3.4
+    "@napi-rs/magic-string-linux-arm64-gnu": 0.3.4
+    "@napi-rs/magic-string-linux-arm64-musl": 0.3.4
+    "@napi-rs/magic-string-linux-x64-gnu": 0.3.4
+    "@napi-rs/magic-string-linux-x64-musl": 0.3.4
+    "@napi-rs/magic-string-win32-arm64-msvc": 0.3.4
+    "@napi-rs/magic-string-win32-ia32-msvc": 0.3.4
+    "@napi-rs/magic-string-win32-x64-msvc": 0.3.4
+  dependenciesMeta:
+    "@napi-rs/magic-string-android-arm-eabi":
+      optional: true
+    "@napi-rs/magic-string-android-arm64":
+      optional: true
+    "@napi-rs/magic-string-darwin-arm64":
+      optional: true
+    "@napi-rs/magic-string-darwin-x64":
+      optional: true
+    "@napi-rs/magic-string-freebsd-x64":
+      optional: true
+    "@napi-rs/magic-string-linux-arm-gnueabihf":
+      optional: true
+    "@napi-rs/magic-string-linux-arm64-gnu":
+      optional: true
+    "@napi-rs/magic-string-linux-arm64-musl":
+      optional: true
+    "@napi-rs/magic-string-linux-x64-gnu":
+      optional: true
+    "@napi-rs/magic-string-linux-x64-musl":
+      optional: true
+    "@napi-rs/magic-string-win32-arm64-msvc":
+      optional: true
+    "@napi-rs/magic-string-win32-ia32-msvc":
+      optional: true
+    "@napi-rs/magic-string-win32-x64-msvc":
+      optional: true
+  checksum: b138f5ba72511f80b20ac068edb124cae3693a5650cb574b8fcff781c149bb76db286a314d172e15cf688bd176e0a693929422c3e0c20663fda00a8e954beaf5
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -1035,21 +1181,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-swc@npm:0.1.1":
-  version: 0.1.1
-  resolution: "@rollup/plugin-swc@npm:0.1.1"
-  dependencies:
-    smob: ^1.0.0
-  peerDependencies:
-    "@swc/core": ^1.3.x
-    rollup: ^3.x
-  peerDependenciesMeta:
-    rollup:
-      optional: true
-  checksum: 39261589963a2a26610640a926e99145dbd5bf3a57c0c4c2fd032206e22a4ad81006bd7b7cc8e7c0baf7364584983bd3badd89c1aa4964c35511bf0dc8586b80
-  languageName: node
-  linkType: hard
-
 "@rollup/plugin-terser@npm:0.4.3":
   version: 0.4.3
   resolution: "@rollup/plugin-terser@npm:0.4.3"
@@ -1063,6 +1194,16 @@ __metadata:
     rollup:
       optional: true
   checksum: 0d697e816f32e9609c48defbda6f3ed90548126fbf673451cfde2c576a7511073cd25d45a9669f179d0b89485e62f56cabeb65428c2232469ab6057ae5dc7709
+  languageName: node
+  linkType: hard
+
+"@rollup/pluginutils@npm:^4.2.1":
+  version: 4.2.1
+  resolution: "@rollup/pluginutils@npm:4.2.1"
+  dependencies:
+    estree-walker: ^2.0.1
+    picomatch: ^2.2.2
+  checksum: 6bc41f22b1a0f1efec3043899e4d3b6b1497b3dea4d94292d8f83b4cf07a1073ecbaedd562a22d11913ff7659f459677b01b09e9598a98936e746780ecc93a12
   languageName: node
   linkType: hard
 
@@ -1925,7 +2066,6 @@ __metadata:
     "@jest/globals": 29.6.2
     "@rollup/plugin-commonjs": 25.0.3
     "@rollup/plugin-node-resolve": 15.1.0
-    "@rollup/plugin-swc": 0.1.1
     "@rollup/plugin-terser": 0.4.3
     "@swc/core": 1.3.71
     "@types/node": 16.18.39
@@ -1937,6 +2077,7 @@ __metadata:
     rimraf: 5.0.1
     rollup: 3.27.0
     rollup-plugin-license: 3.0.1
+    rollup-plugin-swc3: 0.9.1
     ts-jest: 29.1.0
     typescript: 5.1.6
   languageName: unknown
@@ -2380,7 +2521,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"estree-walker@npm:^2.0.2":
+"estree-walker@npm:^2.0.1, estree-walker@npm:^2.0.2":
   version: 2.0.2
   resolution: "estree-walker@npm:2.0.2"
   checksum: 6151e6f9828abe2259e57f5fd3761335bb0d2ebd76dc1a01048ccee22fabcfef3c0859300f6d83ff0d1927849368775ec5a6d265dde2f6de5a1be1721cd94efc
@@ -2661,6 +2802,15 @@ __metadata:
   version: 6.0.1
   resolution: "get-stream@npm:6.0.1"
   checksum: e04ecece32c92eebf5b8c940f51468cd53554dcbb0ea725b2748be583c9523d00128137966afce410b9b051eb2ef16d657cd2b120ca8edafcf5a65e81af63cad
+  languageName: node
+  linkType: hard
+
+"get-tsconfig@npm:^4.6.2":
+  version: 4.6.2
+  resolution: "get-tsconfig@npm:4.6.2"
+  dependencies:
+    resolve-pkg-maps: ^1.0.0
+  checksum: e791e671a9b55e91efea3ca819ecd7a25beae679e31c83234bf3dd62ddd93df070c1b95ae7e29d206358ebb6408f6f79ac6d83a32a3bbd6a6d217babe23de077
   languageName: node
   linkType: hard
 
@@ -4335,7 +4485,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picomatch@npm:^2.0.4, picomatch@npm:^2.2.3, picomatch@npm:^2.3.1":
+"picomatch@npm:^2.0.4, picomatch@npm:^2.2.2, picomatch@npm:^2.2.3, picomatch@npm:^2.3.1":
   version: 2.3.1
   resolution: "picomatch@npm:2.3.1"
   checksum: 050c865ce81119c4822c45d3c84f1ced46f93a0126febae20737bd05ca20589c564d6e9226977df859ed5e03dc73f02584a2b0faad36e896936238238b0446cf
@@ -4494,6 +4644,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"resolve-pkg-maps@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "resolve-pkg-maps@npm:1.0.0"
+  checksum: 1012afc566b3fdb190a6309cc37ef3b2dcc35dff5fa6683a9d00cd25c3247edfbc4691b91078c97adc82a29b77a2660c30d791d65dab4fc78bfc473f60289977
+  languageName: node
+  linkType: hard
+
 "resolve.exports@npm:^2.0.0":
   version: 2.0.2
   resolution: "resolve.exports@npm:2.0.2"
@@ -4579,6 +4736,33 @@ __metadata:
   peerDependencies:
     rollup: ^1.0.0 || ^2.0.0 || ^3.0.0
   checksum: bff41568d71f54968c664a995190a1d2e0be1b5fa87983d3ea0e70d0c78c943dad01f43dd0be07883b6960801af61d48e6f1a611e967ac2f8271f7cf96d39a69
+  languageName: node
+  linkType: hard
+
+"rollup-plugin-swc3@npm:0.9.1":
+  version: 0.9.1
+  resolution: "rollup-plugin-swc3@npm:0.9.1"
+  dependencies:
+    "@fastify/deepmerge": ^1.3.0
+    "@rollup/pluginutils": ^4.2.1
+    get-tsconfig: ^4.6.2
+    rollup-swc-preserve-directives: ^0.3.0
+  peerDependencies:
+    "@swc/core": ">=1.2.165"
+    rollup: ^2.0.0 || ^3.0.0
+  checksum: 2603a1b47e612e0f9ff3d18d9b3798d56822d7ffce098124e8a6151728700f3fd284653ca3eeeb56b14894079f4ca18f76616b904e17fb1127028c1e07893cb8
+  languageName: node
+  linkType: hard
+
+"rollup-swc-preserve-directives@npm:^0.3.0":
+  version: 0.3.1
+  resolution: "rollup-swc-preserve-directives@npm:0.3.1"
+  dependencies:
+    "@napi-rs/magic-string": ^0.3.4
+  peerDependencies:
+    "@swc/core": ">=1.2.165"
+    rollup: ^2.0.0 || ^3.0.0
+  checksum: 2c938d8221a37a2352e7ba2c4fdbf4cf215e96f2a3a8c51e5b365c874e25512972f2404e441ae14a18e105dfc4b67a7993f1167b70f7ec2a2e55e418717dd75d
   languageName: node
   linkType: hard
 
