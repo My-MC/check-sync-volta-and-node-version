@@ -1,7 +1,6 @@
 module.exports = {
   env: { es6: true, node: true },
   extends: [
-    "plugin:github/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:@typescript-eslint/stylistic",
@@ -13,6 +12,5 @@ module.exports = {
     project: "./tsconfig.json",
     // tsconfigRootDir: __dirname,
   },
-  plugins: ["@typescript-eslint", "github"],
-  rules: { "github/no-then": "off" },
+  plugins: ["@typescript-eslint"],
 };
