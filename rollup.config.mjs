@@ -1,8 +1,7 @@
 import path from "path";
 import { fileURLToPath } from "url";
 
-// eslint-disable-next-line import/no-named-as-default
-import swc from "@rollup/plugin-swc";
+import { swc } from "rollup-plugin-swc3";
 import { nodeResolve } from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import terser from "@rollup/plugin-terser";
